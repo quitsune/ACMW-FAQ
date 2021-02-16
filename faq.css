@@ -4,11 +4,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
 body {
   font-family: 'Montserrat', sans-serif;
   background-color: #fcfcfc;
   color: rgb(255, 255, 255);
+  
 }
 h1 {
   text-align: center;
@@ -72,5 +74,30 @@ h1 {
   margin: none;
   height: 15rem;
   background-image: linear-gradient(to  right,#759195 , #87bfc4 );
-  padding:3rem;
+  padding:4rem;
+}
+.content{
+ padding-bottom: 2rem;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 1rem;
+  background-color: #24505f;
+
+  
+}
+
+li{
+  color: white;
+  display: inline;
+
+}
+
+a:link {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  margin: 0.2rem;
+  font-size: 0.8rem;
 }
