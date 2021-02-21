@@ -101,3 +101,9 @@ a:link {
   margin: 0.2rem;
   font-size: 0.8rem;
 }
+
+@media(max-width:900px)
+{.background{
+  height:10rem;
+  padding:1.5rem;
+}}
